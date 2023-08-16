@@ -1,0 +1,44 @@
+This folder contains the sourcecode for a security bot to keep malware and unauthorised forwards out of your telegram groups.
+It is a modulised python program which utilised the python-telegram-bot library.
+Special thanks to @SroSorcxisto for the file_scanner function which is essential for the blocklist.
+and also thanks to the python-telegram-bot staff.
+
+
+NOTE: 
+I have left the malicious_sites.txt blank for OBVIOUS reasons. It is intended to keep a list of toxic websites. DO NOT ATTEMPT TO DEPLOY THIS BOT UNLESS YOU KNOW A BIT ABOUT CYBER-SECURITY!!
+The allowlist contains some channels which might be recommended, but if you're deploying the bot you can wipe it and start again if you like, merely a suggestion.
+
+THIS BOT DOES NOT TRACK ANY INDIVIDUAL USERS!! It only takes the telegram ID numbers of the silver key_bearers (people who are trusted admins)
+It does however track the groups it's in (takes the groups username and ID) 
+
+
+features:
+*auto-blocks users forwarding unapproved telegram channels in your groups. Only trusted admins who are given the silver key may add or remove to the allowlist (transactions are logged in log-channel)
+*blocks websites known for malware, phishing or any illegal activity - also bans the violator instantly.
+*networks groups it resides in with the /chats command.
+*able to remove it from groups which you don't approve of helping.
+*ability to add or remove admin privilege for people over the bot.
+
+
+commands:
+incipio - 💡 winds up the toy.
+auxilium - 📖 brings up help.
+chats - 👁‍🗨 shows the list of all the chats this toy is in.
+allowed - 📋 shows the allow_list for forwards.
+add - 📝 adds a channel to the allowed list.
+remove - 🗑 removes a channel from the allow_list.
+adaugeo - 🔒 adds a website to the block_list.
+expungo - 🔒 removes content from the block_list.
+malum_index - 🔒 displays the block_list.
+observatio_fororum - 🔒 lists all groups with + ids.
+observatio_canalium - 🔒 shows channels toy is in.
+observatio_populum - 🔒 total number of users.
+key_list - 🔒  used to see AG key_bearers.
+bestow_key - 🔒 used to promote users.
+confiscate_key - 🔒 used to demote users.
+relinquo_forum - 🔒 action to leave a group.
+terminatio - 🔒 emergency winding down of toy.
+
+If you need more info I suppose you could contact me on telegram @sinjoro_zilioni   - make sure you mention it's about the bot or github otherwise I may assume you to be a scammer/cold-caller.
+
+
